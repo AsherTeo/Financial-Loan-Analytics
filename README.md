@@ -1,2 +1,6 @@
 
-![ouput_3](https://github.com/AsherTeo/Financial-Loan-Analytics/assets/78581569/0be400b8-d6e8-4746-aef7-470b00d11044)
+
+
+
+https://github.com/AsherTeo/Financial-Loan-Analytics/assets/78581569/db748e7e-830f-42e7-a293-d80414c2466a
+
