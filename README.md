@@ -18,7 +18,31 @@ If you want to explore further or experiment with the GUI, feel free to check ou
 - **Hyperparameter Tuning**: Utilizing Optuna to automatically select the best hyperparameters for the machine learning model, enhancing its predictive performance.
 - **Interactive Dashboard**: Enhancing data visualization using Power BI to create detailed and dynamic visualizations for better understanding and interpretation of results.
 - **Graphical User Interface (GUI)**: Facilitating the machine learning process through a graphical user interface (GUI) provided by gradio, allowing for easy interaction and prediction of loan eligibility.
+- 
+## Objective
 
+1. **Loan Performance Analysis:**
+   - Analyze the loan status column to understand the performance of loans over time.
+   - Assess the impact of various features such as employment length, grade, home ownership, and purpose on loan status.
+
+2. **Profitability Analysis:**
+   - Identify which categorical features such as months, purpose have the highest and lowest profitability.
+   - Analyze factors like interest rate, loan amount, and term to understand their impact on profitability.
+     
+3. **Geographical Analysis:**
+   - Explore the relationship between different state and loan performance.
+   - Analyze regional trends in loan issuance, repayment behavior, and profitability
+     
+4. **Temporal Analysis:**
+   - Explore temporal trends in loan issuance, repayment behavior, and profitability over different time periods.
+   - Identify seasonality patterns in loan performance.
+     
+5. **Feature Importance:**
+   - Use machine learning techniques to determine the importance of each feature in predicting loan status or profitability.
+   - Identify the most influential features and their impact on loan outcomes.
+
+   
+   
 ## Methodology
 
 ### 5) Hypothesis Overview
