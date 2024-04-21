@@ -14,7 +14,7 @@ If you want to explore further or experiment with the GUI, feel free to check ou
 - **Data Analysis**: Performing in-depth analysis of the dataset to extract insights and understand the relationships between different features and loan profitability. 
 - **Feature Selection**: Employ feature selection techniques like Chi-Square and ANOVA to eliminate features with p-values exceeding 0.05.
 - **Machine Learning Model**: Experiment with various machine learning algorithms including XGBoost, LightGBM, CatBoost, and Random Forest to predict future loan eligibility based on selected features and target labels and assess the performance of each model using the F1 score to determine the best-performing model.
--  **Class Imbalance Technique**: Experiment with undersampling techniques like Tomek Links and oversampling techniques like SMOTE to assess if the results improve.
+- **Class Imbalance Technique**: Experiment with undersampling techniques like Tomek Links and oversampling techniques like SMOTE to assess if the results improve.
 - **Hyperparameter Tuning**: Utilizing Optuna to automatically select the best hyperparameters for the machine learning model, enhancing its predictive performance.
 - **Interactive Dashboard**: Enhancing data visualization using Power BI to create detailed and dynamic visualizations for better understanding and interpretation of results.
 - **Graphical User Interface (GUI)**: Facilitating the machine learning process through a graphical user interface (GUI) provided by gradio, allowing for easy interaction and prediction of loan eligibility.
@@ -41,7 +41,7 @@ In feature engineering, `Selenium` is utilized to extract the longitude and lati
 
 ### 3) Exploratory Data Analysis (EDA)
 
-- Univariate Distributions
+**Univariate Distributions**
 
 We initiate our Exploratory Data Analysis by examining univariate distributions, focusing on both numerical and categorical features. For numerical features, we apply box plot and remove extreme outliers from 'annual income' and 'total account' and assess skewness using the `stats` library, revealing a high right-skewness value of 31.04 for the annual income feature. Given that this is a classification problem, it's worth noting that non-parametric models like XGBoost (XGB) and LightGBM (LGM) are less impacted by skewness. For categorical features, we employ bar plots to analyze the distribution of loan statuses and loan terms:
 
