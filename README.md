@@ -29,10 +29,6 @@ If you want to explore further or experiment with the GUI, feel free to check ou
    - Identify which categorical features such as months, purpose have the highest and lowest profitability.
    - Analyze factors like interest rate, loan amount, and term to understand their impact on profitability.
      
-3. **Feature Importance:**
-   - Use machine learning techniques to determine the importance of each feature in predicting loan status.
-   - Identify the most influential features and their impact on loan outcomes.
-   - 
 ## Methodology
 
 ### 1) Data Extraction & Data Wrangling
