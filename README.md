@@ -39,9 +39,15 @@ To demonstrate my SQL skills, I manually import the dataset into Microsoft Serve
 
 In feature engineering, `Selenium` is utilized to extract the longitude and latitude coordinates of US states, enabling geographical visualization in Power BI. Additionally, K-Means clustering with 29 clusters is applied to categorize job titles into 15 distinct job categories, enhancing the granularity of job classification for deeper analysis. Moreover, employment length values are standardized: durations '1 < years' are transformed to 0 years, and durations exceeding '10 > years' are adjusted to 11 years to ensure compatibility with the XGBoost (XGB) model. Furthermore, months are extracted from the issue_date columns, and profit is calculated by subtracting the loan amount from the total payment.
 
-
-
 ### 3) Exploratory Data Analysis (EDA)
+
+- Univariate Distributions
+
+We initiate our Exploratory Data Analysis by examining univariate distributions, focusing on both numerical and categorical features. For numerical features, we apply box plot and remove extreme outliers from 'annual income' and 'total account' and assess skewness using the `stats` library, revealing a high right-skewness value of 31.04 for the annual income feature. Given that this is a classification problem, it's worth noting that non-parametric models like XGBoost (XGB) and LightGBM (LGM) are less impacted by skewness. For categorical features, we employ bar plots to analyze the distribution of loan statuses and loan terms:
+
+- For loan status, 83% have been fully paid, 13% have been charged off, and 2% are currently active.
+- Loans with a term of 36 months are nearly three times as common as those with a term of 60 months indicating a strong preference among borrowers for shorter loan durations. 
+
 ### 4) Machine Learning Analysis
 
 
