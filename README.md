@@ -2,7 +2,7 @@
 
 ## Overview
 
-In the initial phase of this project, we utilize a financial loan dataset to delve into insights across various features. Our objectives include determining which categorical features contribute most significantly to profitability, evaluating the impact of interest rates, debt-to-income, annual income on profits, investigating correlations between these variables and profitability, and exploring additional factors of interest. For this analysis, we leverage SQL for data extraction, and Python equipped with the `pandas` library for data analysis, `seaborn` for data visualization, and `scikit-learn` for machine learning. Furthermore, we enhance our visualization with the interactive dashboard features of **Power BI** , providing more detailed and dynamic visualizations. 
+For this project, we utilize a financial loan dataset to delve into insights across various features. Our objectives include determining which categorical features contribute most significantly to profitability, evaluating the impact of interest rates, debt-to-income, annual income on profits, investigating correlations between these variables and profitability, and exploring additional factors of interest. For this analysis, we leverage SQL for data extraction, and Python equipped with the `pandas` library for data analysis, `seaborn` for data visualization, and `scikit-learn` for machine learning. Furthermore, we enhance our visualization with the interactive dashboard features of **Power BI** , providing more detailed and dynamic visualizations. 
 
 Subsequently, we trained and optimized a machine learning model using feature selection techniques such as **Chi-Square** and **ANOVA**, along with `optuna` to select the best hyperparameters for the XGBoost (XGB) model. The target label 'loan status' was used as y in this process. To create a binary classification task determining 'Approved' or 'Not Approved', we modified the 'loan status' variable, assigning the label '1' to instances of 'Current' and 'Fully Paid', and '0' to instances of 'Charged Off'.  This was done to predict whether applicants will be eligible for loans in the future. The process was facilitated through a machine learning graphical user interface (GUI) provided by `gradio`, as demonstrated below. 
 
@@ -32,10 +32,19 @@ If you want to explore further or experiment with the GUI, feel free to check ou
 3. **Feature Importance:**
    - Use machine learning techniques to determine the importance of each feature in predicting loan status.
    - Identify the most influential features and their impact on loan outcomes.
-
-   
-   
+   - 
 ## Methodology
+
+### 1) Data Extraction & Data Wrangling
+To demonstrate my SQL skills, I manually import the dataset into Microsoft Server. Using SQL, I generate various results and insights, which are saved in an SQL Report under the SQL folder. Subsequently, I utilize the Python pyodbc library to extract the data from the SQL Server for further analysis and processing. Additionally, I conduct data wrangling tasks such as removing duplicates and missing values, and ensuring correct data types are assigned.
+
+### 2) Feature Enginerring
+
+
+
+### 3) Exploratory Data Analysis (EDA)
+### 4) Machine Learning Analysis
+
 
 ### 5) Hypothesis Overview
 
