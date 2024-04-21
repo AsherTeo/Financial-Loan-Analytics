@@ -6,6 +6,8 @@ In the initial phase of this project, we utilize a financial loan dataset to del
 
 Subsequently, we trained and optimized a machine learning model using feature selection techniques such as **Chi-Square** and **ANOVA**, along with `optuna` to select the best hyperparameters for the XGBoost (XGB) model. The target label 'loan status' was used as y in this process. To create a binary classification task determining 'Approved' or 'Not Approved', we modified the 'loan status' variable, assigning the label '1' to instances of 'Current' and 'Fully Paid', and '0' to instances of 'Charged Off'.  This was done to predict whether applicants will be eligible for loans in the future. The process was facilitated through a machine learning graphical user interface (GUI) provided by `gradio`, as demonstrated below. 
 
+If you want to explore further or experiment with the GUI, feel free to check out the script labeled 'gradio.ipynb'
+
 ## Key Features
 
 ## Objective
