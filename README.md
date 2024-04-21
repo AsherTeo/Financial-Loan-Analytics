@@ -1,7 +1,7 @@
 # Financial Loan Analysis with Dashboard (Below)
 
 ## Overview
-In this project, a financial loan dataset is utilized to analyze which aspects of the features contribute most significantly to profitability
+In this project, we leverage a financial loan dataset to explore the aspects of features that have the greatest impact on profitability
 
 
 This project involves analyzing a dataset of financial loan data by 
