@@ -37,7 +37,7 @@ To demonstrate my SQL skills, I manually import the dataset into Microsoft Serve
 
 ### 2) Feature Enginerring
 
-In feature engineering, Selenium is utilized to extract the longitude and latitude coordinates of US states, enabling geographical visualization in Power BI. Additionally, K-Means clustering with 29 clusters is applied to categorize job titles into 15 distinct job categories, enhancing the granularity of job classification for deeper analysis. Moreover, employment length values are standardized: durations less than 1 year are transformed to 0 years, and durations exceeding 10 years are adjusted to 11 years for consistency. Furthermore, months are extracted from the issue_date columns, and profit is calculated by subtracting the loan amount from the total payment.
+In feature engineering, `Selenium` is utilized to extract the longitude and latitude coordinates of US states, enabling geographical visualization in Power BI. Additionally, K-Means clustering with 29 clusters is applied to categorize job titles into 15 distinct job categories, enhancing the granularity of job classification for deeper analysis. Moreover, employment length values are standardized: durations '1 < years' are transformed to 0 years, and durations exceeding '10 > years' are adjusted to 11 years to ensure compatibility with the XGBoost (XGB) model. Furthermore, months are extracted from the issue_date columns, and profit is calculated by subtracting the loan amount from the total payment.
 
 
 
