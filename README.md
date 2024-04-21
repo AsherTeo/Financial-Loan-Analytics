@@ -21,11 +21,11 @@ If you want to explore further or experiment with the GUI, feel free to check ou
   
 ## Objective
 
-1. **Loan Performance Analysis:**
+1. **Loan Performance Analysis: (Machine Learning)**
    - Analyze the loan status column to understand the performance of loans over time.
    - Assess the impact of various features such as employment length, grade, home ownership, and purpose on loan status.
 
-2. **Profitability Analysis:**
+2. **Profitability Analysis:(Power BI)**
    - Identify which categorical features such as months, purpose have the highest and lowest profitability.
    - Analyze factors like interest rate, loan amount, and term to understand their impact on profitability.
      
