@@ -1,5 +1,5 @@
 # Financial Loan Analysis with Dashboard (Below)
-https://www.statsamerica.org/sip/rank_list.aspx?rank_label=pop1
+
 ## Overview
 
 For this project, we utilize a financial loan dataset to delve into insights across various features. Our objectives include determining which categorical features contribute most significantly to profitability, evaluating the impact of interest rates, debt-to-income, annual income on profits, investigating correlations between these variables and profitability, and exploring additional factors of interest. For this analysis, we leverage SQL for data extraction, and Python equipped with the `pandas` library for data analysis, `seaborn` for data visualization, and `scikit-learn` for machine learning. Furthermore, we enhance our visualization with the interactive dashboard features of **Power BI** , providing more detailed and dynamic visualizations. 
@@ -63,7 +63,7 @@ We initiate our Exploratory Data Analysis by examining univariate distributions,
 
 1) **Analyzing Profit by State**
    
-The top three states, California, New York, and Texas, have generated the highest profits, amounting to 5.4 million, 4 million, and $3 million, respectively. It's worth noting that California, New York, and Texas are among the top 10 most ![populous states](https://www.statsamerica.org/sip/rank_list.aspx?rank_label=pop1) in the U.S., which could contribute to their higher profitability due to increased business activity and investment opportunities. Conversely, three states, Tennessee, Nebraska, and Indiana, have incurred negative profits.
+The top three states, California, New York, and Texas, have generated the highest profits, amounting to 5.4 million, 4 million, and $3 million, respectively. It's worth noting that California, New York, and Texas are among the top 10 most populous states in the U.S., as indicated by StatsAmerica https://www.statsamerica.org/sip/rank_list.aspx?rank_label=pop1 which could contribute to their higher profitability due to increased business activity and investment opportunities. Conversely, three states, Tennessee, Nebraska, and Indiana, have incurred negative profits.
 
 2) **Analyzing Profit by Job Title & Purpose**
 
