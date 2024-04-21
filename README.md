@@ -63,7 +63,7 @@ We initiate our Exploratory Data Analysis by examining univariate distributions,
 
 1) **Analyzing Profit by State**
    
-The top three states, California, New York, and Texas, have generated the highest profits, amounting to 5.4 million, 4 million, and $3 million, respectively. It's worth noting that California, New York, and Texas are among the top 10 most populous states in the U.S., which could contribute to their higher profitability due to increased business activity and investment opportunities. Conversely, three states, Tennessee, Nebraska, and Indiana, have incurred negative profits.
+The top three states, California, New York, and Texas, have generated the highest profits, amounting to 5.4 million, 4 million, and $3 million, respectively. It's worth noting that California, New York, and Texas are among the top 10 most ![populous states](https://www.statsamerica.org/sip/rank_list.aspx?rank_label=pop1) in the U.S., which could contribute to their higher profitability due to increased business activity and investment opportunities. Conversely, three states, Tennessee, Nebraska, and Indiana, have incurred negative profits.
 
 2) **Analyzing Profit by Job Title & Purpose**
 
