@@ -35,6 +35,7 @@ If you want to explore further or experiment with the GUI, feel free to check ou
 To demonstrate my SQL skills, I manually import the dataset into Microsoft Server. Using SQL, I generate various results and insights, which are saved in an SQL Report under the SQL folder. Subsequently, I utilize the Python `pyodbc` library to extract the data from the SQL Server for further analysis and processing. Additionally, I conduct data wrangling tasks such as removing duplicates and missing values, and ensuring correct data types are assigned.
 
 ### 2) Feature Enginerring
+To enhance the dataset, a K-Means clustering with 29 clusters is utilized to group job titles into 15 distinct job categories.
 
 
 
@@ -45,5 +46,5 @@ To demonstrate my SQL skills, I manually import the dataset into Microsoft Serve
 ### 5) Hypothesis Overview
 
 
-
+### 6) Machine Learning Graphical User Interface (GUI)
 ![output](https://github.com/AsherTeo/Financial-Loan-Analytics/assets/78581569/c3c2a1f3-6dd3-41b0-ac4b-32f1a6588c3c)
