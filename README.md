@@ -58,7 +58,13 @@ We initiate our Exploratory Data Analysis by examining univariate distributions,
   - Analysis of popular US states reveals consistent top rankings for California, New York, Florida, and Texas consistently rank among the top five most popular states in the US. Consequently, the number of loans issued tends to be highest in these states. The popularity of these states attracts entrepreneurs and investors, leading to increased economic activity and demand for financial services, including loans.
     
   - There is a noticeable increase in loan issuance towards the end of the year, particularly in December and November. This trend could be attributed to various factors such as end-of-year financial planning, holiday expenses, or seasonal spending patterns. November might see a surge in loan issuance due to the preparation for holiday expenses and end-of-year financial decisions, which often coincide with the upcoming holiday season.
+    
+**Bivariate/Multivariate Distributions**
 
+***Analyzing Profit by State***
+The top three states, California, New York, and Texas, have generated the highest profits, amounting to 5.4 million, 4 million, and $3 million, respectively. It's worth noting that California, New York, and Texas are among the top 10 most populous states in the U.S., which could contribute to their higher profitability due to increased business activity and investment opportunities.
+
+Conversely, three states, Tennessee, Nebraska, and Indiana, have incurred negative profits.
 
 
 ### 4) Machine Learning Analysis
