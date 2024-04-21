@@ -46,11 +46,17 @@ In feature engineering, `Selenium` is utilized to extract the longitude and lati
 We initiate our Exploratory Data Analysis by examining univariate distributions, focusing on both numerical and categorical features. For numerical features, we apply box plot and remove extreme outliers from 'annual income' and 'total account' and assess skewness using the `stats` library, revealing a high right-skewness value of 31.04 for the annual income feature. Given that this is a classification problem, it's worth noting that non-parametric models like XGBoost (XGB) and LightGBM (LGM) are less impacted by skewness. For categorical features, we employ bar plots to analyze the distribution of loan statuses and loan terms:
 
   - For loan status, 83% have been fully paid, 13% have been charged off, and 2% are currently active.
+    
   - Loans with a term of 36 months are nearly three times as common as those with a term of 60 months indicating a strong preference among borrowers for shorter loan durations.
+    
   - The majority of loans, comprising around 67%, originate from organizations such as STARBUCKS, while public service accounts for 8% of loans. This trend may be attributed to employee loan programs and the stable employment typically found within these organizations.
+    
   - 'Debt Consolidation' accounts for the largest share at 47.2%, followed by credit card debt consolidation at 12%. 'Debt Consolidation' is often chosen for its potential to secure lower interest rates compared to individual debts, resulting in benefits such as interest savings, simplified repayment, and improved creditworthiness
+    
   - Approximately 90% of homeownership is divided between rental and mortgage, as owning a home may imply lower financial strain.
+    
   - Analysis of popular US states reveals consistent top rankings for California, New York, Florida, and Texas consistently rank among the top five most popular states in the US. Consequently, the number of loans issued tends to be highest in these states. The popularity of these states attracts entrepreneurs and investors, leading to increased economic activity and demand for financial services, including loans.
+    
   - There is a noticeable increase in loan issuance towards the end of the year, particularly in December and November. This trend could be attributed to various factors such as end-of-year financial planning, holiday expenses, or seasonal spending patterns. November might see a surge in loan issuance due to the preparation for holiday expenses and end-of-year financial decisions, which often coincide with the upcoming holiday season.
 
 
