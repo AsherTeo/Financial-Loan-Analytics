@@ -29,15 +29,7 @@ If you want to explore further or experiment with the GUI, feel free to check ou
    - Identify which categorical features such as months, purpose have the highest and lowest profitability.
    - Analyze factors like interest rate, loan amount, and term to understand their impact on profitability.
      
-3. **Geographical Analysis:**
-   - Explore the relationship between different state and loan performance.
-   - Analyze regional trends in loan issuance, repayment behavior, and profitability
-     
-4. **Temporal Analysis:**
-   - Explore temporal trends in loan issuance, repayment behavior, and profitability over different time periods.
-   - Identify seasonality patterns in loan performance.
-     
-5. **Feature Importance:**
+3. **Feature Importance:**
    - Use machine learning techniques to determine the importance of each feature in predicting loan status or profitability.
    - Identify the most influential features and their impact on loan outcomes.
 
