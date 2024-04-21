@@ -18,7 +18,7 @@ If you want to explore further or experiment with the GUI, feel free to check ou
 - **Hyperparameter Tuning**: Utilizing Optuna to automatically select the best hyperparameters for the machine learning model, enhancing its predictive performance.
 - **Interactive Dashboard**: Enhancing data visualization using Power BI to create detailed and dynamic visualizations for better understanding and interpretation of results.
 - **Graphical User Interface (GUI)**: Facilitating the machine learning process through a graphical user interface (GUI) provided by gradio, allowing for easy interaction and prediction of loan eligibility.
-- 
+  
 ## Objective
 
 1. **Loan Performance Analysis:**
