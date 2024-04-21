@@ -32,10 +32,12 @@ If you want to explore further or experiment with the GUI, feel free to check ou
 ## Methodology
 
 ### 1) Data Extraction & Data Wrangling
+
 To demonstrate my SQL skills, I manually import the dataset into Microsoft Server. Using SQL, I generate various results and insights, which are saved in an SQL Report under the SQL folder. Subsequently, I utilize the Python `pyodbc` library to extract the data from the SQL Server for further analysis and processing. Additionally, I conduct data wrangling tasks such as removing duplicates and missing values, and ensuring correct data types are assigned.
 
 ### 2) Feature Enginerring
-To enhance the dataset, a K-Means clustering with 29 clusters is utilized to group job titles into 15 distinct job categories.
+
+In feature engineering, Selenium is utilized to extract the longitude and latitude coordinates of US states, enabling geographical visualization in Power BI. Additionally, K-Means clustering with 29 clusters is applied to categorize job titles into 15 distinct job categories, enhancing the granularity of job classification for deeper analysis. Moreover, employment length values are standardized: durations less than 1 year are transformed to 0 years, and durations exceeding 10 years are adjusted to 11 years for consistency. Furthermore, months are extracted from the issue_date columns, and profit is calculated by subtracting the loan amount from the total payment.
 
 
 
