@@ -41,7 +41,7 @@ In feature engineering, `Selenium` is utilized to extract the longitude and lati
 
 ### 3) Exploratory Data Analysis (EDA)
 
-**Univariate Distributions**
+**A) Univariate Distributions**
 
 We initiate our Exploratory Data Analysis by examining univariate distributions, focusing on both numerical and categorical features. For numerical features, we apply box plot and remove extreme outliers from 'annual income' and 'total account' and assess skewness using the `stats` library, revealing a high right-skewness value of 31.04 for the annual income feature. Given that this is a classification problem, it's worth noting that non-parametric models like XGBoost (XGB) and LightGBM (LGM) are less impacted by skewness. For categorical features, we employ bar plots to analyze the distribution of loan statuses and loan terms:
 
@@ -59,12 +59,17 @@ We initiate our Exploratory Data Analysis by examining univariate distributions,
     
   - There is a noticeable increase in loan issuance towards the end of the year, particularly in December and November. This trend could be attributed to various factors such as end-of-year financial planning, holiday expenses, or seasonal spending patterns. November might see a surge in loan issuance due to the preparation for holiday expenses and end-of-year financial decisions, which often coincide with the upcoming holiday season.
     
-**Bivariate/Multivariate Distributions**
+**B) Bivariate/Multivariate Distributions**
 
-***Analyzing Profit by State***
-The top three states, California, New York, and Texas, have generated the highest profits, amounting to 5.4 million, 4 million, and $3 million, respectively. It's worth noting that California, New York, and Texas are among the top 10 most populous states in the U.S., which could contribute to their higher profitability due to increased business activity and investment opportunities.
+1) **Analyzing Profit by State**
+   
+The top three states, California, New York, and Texas, have generated the highest profits, amounting to 5.4 million, 4 million, and $3 million, respectively. It's worth noting that California, New York, and Texas are among the top 10 most populous states in the U.S., which could contribute to their higher profitability due to increased business activity and investment opportunities. Conversely, three states, Tennessee, Nebraska, and Indiana, have incurred negative profits.
 
-Conversely, three states, Tennessee, Nebraska, and Indiana, have incurred negative profits.
+2) **Analyzing Profit by Job Title & Purpose**
+
+On average, sectors such as Education, Military, and Financial Services have demonstrated the highest profitability, whereas the self-employed sector exhibits a negative profile. This observation suggests the possibility of reducing the allocation of loans to self-employed individuals, as their ventures are not yielding significant profits. Conversely, there may be an opportunity to increase lending in the Education sector or introduce alternative schemes to attract more borrowers from profitable sectors.
+
+
 
 
 ### 4) Machine Learning Analysis
