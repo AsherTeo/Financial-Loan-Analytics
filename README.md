@@ -9,8 +9,10 @@ Subsequently, we trained and optimized a machine learning model using feature se
 If you want to explore further or experiment with the GUI, feel free to check out the script labeled **Gradio.ipynb**.
 
 ## Key Features
-
-## Objective
+- **Financial Loan Dataset**: Extraction of data from Microsoft SQL Server
+- Performing in-depth analysis of the dataset to extract insights and understand the relationships between different features and loan profitability. 
+- Employ feature selection techniques like Chi-Square and ANOVA to eliminate features with p-values exceeding 0.05.
+- 
 
 
 ## Methodology
