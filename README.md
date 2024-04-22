@@ -103,8 +103,7 @@ Geographical variations in DTI ratios can offer insights into regional risk prof
 
 ### 4) Feature Selection
 
-For feature selection, we utilize chi-square `chi2_contingency` for categorical features and ANOVA `f_oneway` for numerical ones. If the p-values from either method exceed 0.05, we reject the feature.
-
+For feature selection, prior to training, we first utilize chi-square `chi2_contingency` for categorical features and ANOVA `f_oneway` for numerical ones. If the p-values from either method exceed 0.05, we reject the feature. After training, we utilize XGB feature selection parameters to rank the importance of each feature and attempt to remove those with 0 importance. For example, we may replace 'Vermont', 'Tennessee', 'South Dakota', 'Mississippi', and 'Oklahoma' as 'Others' in the 'State' feature to enhance the model's performance.
 ### 5) Machine Learning 
 
 The process begins with the standardization of numerical data using the Standard Scaler. This step ensures that all numerical features are normalized to a consistent range, preventing certain features from dominating others during model training.
