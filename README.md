@@ -32,12 +32,13 @@ If you want to explore further or experiment with the GUI, feel free to check ou
 ## Objective
 
 1. **Profitability Analysis:(Power BI)**
-   - Identify which categorical features such as months, purpose have the highest and lowest profitability.
-   - Analyze factors like interest rate, loan amount, and term to understand their impact on profitability.
+  - Utilize Power BI to identify categorical features such as months and loan purposes with the highest and lowest profitability.
+  - Explore the impact of factors like interest rate, loan amount, and term on profitability to uncover insights into business performance.
      
 2. **Loan Performance Analysis: (Machine Learning)**
-   - Analyze the loan status column to understand the performance of loans over time.
-   - Assess the impact of various features such as employment length, grade, home ownership, and purpose on loan status.
+   - Employ machine learning techniques to analyze the loan status column and understand the performance of loans over time.
+   - Evaluate the influence of features such as employment length, loan grade, home ownership, and loan purpose on loan status to identify key drivers of loan performance.
+   - 
 </details>
 
 <details>
