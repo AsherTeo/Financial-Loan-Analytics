@@ -55,6 +55,9 @@ In feature engineering, `Selenium` is utilized to extract the longitude and lati
 
 ### 3) Exploratory Data Analysis (EDA)
 
+<details>
+  <summary> Univariate Distributions</summary>
+  
 **A) Univariate Distributions**
 
 We initiate our Exploratory Data Analysis by examining univariate distributions, focusing on both numerical and categorical features. For numerical features, we apply box plot and remove extreme outliers from 'annual income' and 'total account' and assess skewness using the `stats` library, revealing a high right-skewness value of 31.04 for the annual income feature. Given that this is a classification problem, it's worth noting that non-parametric models like XGBoost (XGB) and LightGBM (LGM) are less impacted by skewness. For categorical features, we employ bar plots to analyze the distribution of loan statuses and loan terms:
@@ -72,9 +75,13 @@ We initiate our Exploratory Data Analysis by examining univariate distributions,
   - Analysis of popular US states reveals consistent top rankings for California, New York, Florida, and Texas consistently rank among the top five most popular states in the US. Consequently, the number of loans issued tends to be highest in these states. The popularity of these states attracts entrepreneurs and investors, leading to increased economic activity and demand for financial services, including loans.
     
   - There is a noticeable increase in loan issuance towards the end of the year, particularly in December and November. This trend could be attributed to various factors such as end-of-year financial planning, holiday expenses, or seasonal spending patterns. November might see a surge in loan issuance due to the preparation for holiday expenses and end-of-year financial decisions, which often coincide with the upcoming holiday season.
-    
+</details>
+
 **B) Bivariate/Multivariate Distributions**
 
+<details>
+  <summary> Bivariate/Multivariate Distributions</summary>
+  
 1) **Analyzing Profit by State**
    
 The top three states, California, New York, and Texas, have generated the highest profits, amounting to 5.4 million, 4 million, and $3 million, respectively. It's worth noting that California, New York, and Texas are among the top 10 most populous states in the U.S., as indicated by [StatsAmerica](https://www.statsamerica.org/sip/rank_list.aspx?rank_label=pop1) which could contribute to their higher profitability due to increased business activity and investment opportunities. Conversely, three states, Tennessee, Nebraska, and Indiana, have incurred negative profits.
@@ -96,7 +103,7 @@ Higher interest rates often signal increased risk. For example, loans with longe
 A higher Debt-to-Income (DTI) ratio usually indicates increased financial risk, showing that a larger portion of income is used to repay debts, potentially straining finances. This risk can be heightened by other factors. For example, borrowers with lower credit grades often have higher DTI ratios, as do those using credit cards due to revolving credit structures. Certain occupations, like military service, may also show higher DTI ratios, influenced by salary structures or deployment-related expenses.
 
 Geographical variations in DTI ratios can offer insights into regional risk profiles. States like Nebraska, with higher DTI ratios, may reflect local economic conditions or cost-of-living factors, contributing to increased financial risk in those areas.
-
+  </details>
 </details>
 
 ### 4) Machine Learning Analysis
