@@ -103,7 +103,7 @@ Geographical variations in DTI ratios can offer insights into regional risk prof
 
 ### 4) Feature Selection
 
-It is important to select the correct feature selection methods. For instance, Chi-square is suitable for categorical features, while ANOVA is appropriate for numerical features. If the p-values from either of the methods exceed 0.05, we reject the feature.
+For feature selection, we utilize chi-square `chi2_contingency` for categorical features and ANOVA `f_oneway` for numerical ones. If the p-values from either method exceed 0.05, we reject the feature.
 
 ### 5) Machine Learning 
 
