@@ -100,17 +100,23 @@ A higher Debt-to-Income (DTI) ratio usually indicates increased financial risk, 
 
 Geographical variations in DTI ratios can offer insights into regional risk profiles. States like Nebraska, with higher DTI ratios, may reflect local economic conditions or cost-of-living factors, contributing to increased financial risk in those areas.
   </details>
+
+### 4) Feature Selection
+
+It is important to select the correct feature selection methods. For instance, Chi-square is suitable for categorical features, while ANOVA is appropriate for numerical features. If the p-values from either of the methods exceed 0.05, we reject the feature.
+
+### 5) Machine Learning 
+
+The process begins with the standardization of numerical data using the Standard Scaler. This step ensures that all numerical features are normalized to a consistent range, preventing certain features from dominating others during model training.
+
+
+
+
 </details>
-
-### 4) Machine Learning Analysis
-
-
-### 5) Hypothesis Overview
-
 <details>
   <summary>Machine Learning Graphical User Interface (GUI)</summary>
   
-### 6) Machine Learning Graphical User Interface (GUI)
+### Machine Learning Graphical User Interface (GUI)
 ![output](https://github.com/AsherTeo/Financial-Loan-Analytics/assets/78581569/c3c2a1f3-6dd3-41b0-ac4b-32f1a6588c3c)
 
 </details>
