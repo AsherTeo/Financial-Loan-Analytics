@@ -71,15 +71,7 @@ On average, sectors such as Education, Military, and Financial Services have dem
 
 3) **Charged Off Loans with categorical features**
 
-In this section, we will analyze categorical features with a loan status of "charged off." This is an important investigation as "charged off" loans represent instances where no profit was made, and understanding the contributing features can provide insights into factors associated with unsuccessful loan outcomes.
-
-We observe a clear trend in the 'Grade' classification, where the likelihood of charged-off loans increases with the progression through the alphabetical grading system from 'A' to 'G'. Notably, Grade 'G' presents the highest risk, with a 31% rate of charged-off loans.
-
-Additionally, small business loans stand out, with a quarter of them resulting in charge-offs. This observation aligns with previous findings indicating negative profitability for small business loans.
-
-Moreover, Nebraska state exhibits an incredibly high charged-off rate of 60%, which aligns with our findings indicating it has the lowest profitability percentage.
-
-Additionally, the peak months for charged-off loans are May and December. May might exhibit elevated default rates owing to seasonal influences like heightened spending on vacations or home improvement projects. Conversely, December, being the holiday season, could experience increased default rates due to heightened expenditures combined with financial strain from holiday-related expenses.
+In our analysis of loans with a "charged off" status, we observed notable trends. The likelihood of loans being charged off increases as the grading system progresses from 'A' to 'G', with Grade 'G' presenting the highest risk at a 31% charge-off rate. Small business loans stand out, with a quarter of them resulting in charge-offs, consistent with findings indicating negative profitability in this sector. Nebraska exhibits a remarkably high charge-off rate of 60%, aligning with its low profitability percentage. Furthermore, peak charge-off months are May and December, potentially due to seasonal factors such as increased spending on vacations and holiday-related expenses.
 
 
 
