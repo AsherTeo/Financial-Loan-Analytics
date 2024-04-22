@@ -150,8 +150,8 @@ The process begins with the standardization of numerical data using the Standard
 
 | Model                  | Precision |   Recall |      F1   |   AUC   |
 |------------------------|-----------|----------|-----------|---------|
-| **XGBoost Tomek**      | 0.97808	 | 0.977965	| 0.977306	| 0.980706|
-| LightGBM Tomek         | 0.97783	 | 0.977705	| 0.977028	| 0.980501 |
+| **XGBoost Tomek Less Feature**      | 0.97808	 | 0.977965	| 0.977306	| 0.980706|
+| LightGBM Tomek Less Feature        | 0.97783	 | 0.977705	| 0.977028	| 0.980501 |
 
 </details>
 
