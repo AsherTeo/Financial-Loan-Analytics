@@ -58,7 +58,7 @@ In feature engineering, `Selenium` is utilized to extract the longitude and lati
 <details>
   <summary> Univariate Distributions</summary>
   
-**A) Univariate Distributions**
+**Univariate Distributions**
 
 We initiate our Exploratory Data Analysis by examining univariate distributions, focusing on both numerical and categorical features. For numerical features, we apply box plot and remove extreme outliers from 'annual income' and 'total account' and assess skewness using the `stats` library, revealing a high right-skewness value of 31.04 for the annual income feature. Given that this is a classification problem, it's worth noting that non-parametric models like XGBoost (XGB) and LightGBM (LGM) are less impacted by skewness. For categorical features, we employ bar plots to analyze the distribution of loan statuses and loan terms:
 
@@ -80,7 +80,7 @@ We initiate our Exploratory Data Analysis by examining univariate distributions,
 <details>
   <summary> Bivariate/Multivariate Distributions</summary>
   
-**B) Bivariate/Multivariate Distributions**
+**Bivariate/Multivariate Distributions**
 
 
   
