@@ -146,7 +146,7 @@ The process begins with the standardization of numerical data using the Standard
 | LightGBM Baseline	     | 0.975928	 | 0.975632	| 0.974754	| 0.979514 |
 | CatBoost Baseline      | 0.975873	 | 0.975373	| 0.974403	| 0.982934 |
 
-### After Hyper paraemter tunnung (Top 2)
+### After Hyper parameter tunning (Top 2)
 
 | Model                  | Precision |   Recall |      F1   |   AUC   |
 |------------------------|-----------|----------|-----------|---------|
