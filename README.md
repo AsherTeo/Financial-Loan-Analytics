@@ -166,13 +166,10 @@ The table presented below is sorted based on the F1 score of each model.
 
 </details>
 
-<details>
-  <summary>Machine Learning Graphical User Interface (GUI)</summary>
-  
 ### Machine Learning Graphical User Interface (GUI)
 
-
+In this demo, we've seamlessly integrated our optimized machine learning models into Gradio, leveraging its intuitive graphical user interface (GUI) capabilities for an enhanced user experience. With Gradio, users can effortlessly adjust parameters and interact with our machine learning model to predict loan approval status. Simply click and adjust the parameters to observe how changes affect the Loan Approved predictor's decision. Explore the power of machine learning in action with just a few clicks!
 
 ![output](https://github.com/AsherTeo/Financial-Loan-Analytics/assets/78581569/c3c2a1f3-6dd3-41b0-ac4b-32f1a6588c3c)
 
-</details>
+
