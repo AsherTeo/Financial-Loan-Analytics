@@ -126,8 +126,8 @@ The process begins with the standardization of numerical data using the Standard
 
 | Model                  | Precision |   Recall |      F1   |   AUC   |
 |------------------------|-----------|----------|-----------|---------|
-| XGBoost                | 0.977580	 | 0.977447	| 0.976751	| 0.979257|
-| LightGBM               | 0.977083	 | 0.976798	| 0.976002	| 0.980277 |
+| **XGBoost**            | 0.977580	 | 0.977447	| 0.976751	| 0.979257|
+| **LightGBM**           | 0.977083	 | 0.976798	| 0.976002	| 0.980277 |
 | CatBoost               | 0.975309	 | 0.974854	| 0.973864	| 0.983643 |
 | Deep Learning	         |0.960459	 | 0.961244	| 0.960697	| 0.960128 |
 | Gradient Boosting      | 0.963253	 | 0.962022	| 0.959535	| 0.975482 |
@@ -136,9 +136,25 @@ The process begins with the standardization of numerical data using the Standard
 | Random Forest          | 0.940920	 | 0.936876	| 0.928749	| 0.948122 |
 | Extra Tree             | 0.895023	 | 0.890343	| 0.859823	| 0.898171 |
 
-### OverSampling (SMOTE)
+### After Feature Selection (Top 5)
+
+| Model                  | Precision |   Recall |      F1   |   AUC   |
+|------------------------|-----------|----------|-----------|---------|
+| **XGBoost Tomek**      | 0.977833	 | 0.977706	| 0.977029	| 0.979802|
+| **LightGBM Tomek**     | 0.977612	 | 0.977317	| 0.976549	| 0.980501 |
+| XGBoost Baseline       | 0.975600	 | 0.975632	| 0.974903	| 0.978645 |
+| LightGBM Baseline	     | 0.975928	 | 0.975632	| 0.974754	| 0.979514 |
+| CatBoost Baseline      | 0.975873	 | 0.975373	| 0.974403	| 0.982934 |
+
+### After Hyper paraemter tunnung (Top 2)
+
+| Model                  | Precision |   Recall |      F1   |   AUC   |
+|------------------------|-----------|----------|-----------|---------|
+| **XGBoost Tomek**      | 0.97808	 | 0.977965	| 0.977306	| 0.980706|
+| LightGBM Tomek         | 0.97783	 | 0.977705	| 0.977028	| 0.980501 |
 
 </details>
+
 <details>
   <summary>Machine Learning Graphical User Interface (GUI)</summary>
   
