@@ -77,10 +77,12 @@ We initiate our Exploratory Data Analysis by examining univariate distributions,
   - There is a noticeable increase in loan issuance towards the end of the year, particularly in December and November. This trend could be attributed to various factors such as end-of-year financial planning, holiday expenses, or seasonal spending patterns. November might see a surge in loan issuance due to the preparation for holiday expenses and end-of-year financial decisions, which often coincide with the upcoming holiday season.
 </details>
 
-**B) Bivariate/Multivariate Distributions**
-
 <details>
   <summary> Bivariate/Multivariate Distributions</summary>
+  
+**B) Bivariate/Multivariate Distributions**
+
+
   
 1) **Analyzing Profit by State**
    
