@@ -1,6 +1,6 @@
 # Financial Loan Analysis with Dashboard (Below)
 <details>
-  <summary>Table of Contents</summary>
+  <summary>Overview</summary>
 
 ## Overview
 
@@ -21,6 +21,10 @@ If you want to explore further or experiment with the GUI, feel free to check ou
 - **Interactive Dashboard**: Enhancing data visualization using Power BI to create detailed and dynamic visualizations for better understanding and interpretation of results.
 - **Graphical User Interface (GUI)**: Facilitating the machine learning process through a graphical user interface (GUI) provided by gradio, allowing for easy interaction and prediction of loan eligibility.
 </details>
+
+<details>
+  <summary>Objective</summary>
+  
 ## Objective
 
 1. **Profitability Analysis:(Power BI)**
@@ -30,7 +34,11 @@ If you want to explore further or experiment with the GUI, feel free to check ou
 2. **Loan Performance Analysis: (Machine Learning)**
    - Analyze the loan status column to understand the performance of loans over time.
    - Assess the impact of various features such as employment length, grade, home ownership, and purpose on loan status.
-     
+</details>
+
+<details>
+  <summary>Methodology</summary>
+  
 ## Methodology
 
 ### 1) Data Extraction & Data Wrangling
@@ -85,7 +93,7 @@ A higher Debt-to-Income (DTI) ratio usually indicates increased financial risk, 
 
 Geographical variations in DTI ratios can offer insights into regional risk profiles. States like Nebraska, with higher DTI ratios, may reflect local economic conditions or cost-of-living factors, contributing to increased financial risk in those areas.
 
-
+<details>
 ### 4) Machine Learning Analysis
 
 
