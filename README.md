@@ -104,9 +104,10 @@ Geographical variations in DTI ratios can offer insights into regional risk prof
 ### 4) Feature Selection
 
 For feature selection, prior to training, we first utilize chi-square `chi2_contingency` for categorical features and ANOVA `f_oneway` for numerical ones. If the p-values from either method exceed 0.05, we reject the feature. After training, we utilize XGB feature selection parameters to rank the importance of each feature and attempt to remove those with 0 importance. For example, we may replace 'Vermont', 'Tennessee', 'South Dakota', 'Mississippi', and 'Oklahoma' as 'Others' in the 'State' feature to enhance the model's performance.
+
 ### 5) Machine Learning 
 
-The process begins with the standardization of numerical data using the Standard Scaler. This step ensures that all numerical features are normalized to a consistent range, preventing certain features from dominating others during model training.
+The first step is to scale the numerical features using Standard Scaler. This is to ensure all numerical features are normalized to a consistent range, preventing certain features from dominating others during model training. Next, categorical features are transformed into one-hot encoding format. The dataset is then divided into an 80-20 split, with 80% designated for training and 20% for testing. Given the severe class imbalance in the dataset, we first train a baseline model to evaluate its performance. Our primary metric is the F1 score, as it combines both precision and recall to assess model effectiveness. Subsequently, we address the class imbalance using techniques such as undersampling and oversampling. For undersampling, we employ Tomek Links, which involve removing instances from the majority class that form Tomek links with instances from the minority class, rather than downsampling the larger class to match the size of the smaller class. For oversampling, we utilize SMOTE (Synthetic Minority Over-sampling Technique), which synthesizes instances for the minority class by leveraging K-nearest neighbor relationships. The number of nearest neighbors (K) is adjustable to suit the specific dataset characteristics and modeling objectives.
 
 ### Baseline
 
@@ -150,8 +151,8 @@ The process begins with the standardization of numerical data using the Standard
 
 | Model                  | Precision |   Recall |      F1   |   AUC   |
 |------------------------|-----------|----------|-----------|---------|
-| **XGBoost Tomek Less Feature**      | 0.97808	 | 0.977965	| 0.977306	| 0.980706|
-| LightGBM Tomek Less Feature        | 0.97783	 | 0.977705	| 0.977028	| 0.980501 |
+| **XGBoost Tomek Less Feature**     | 0.97808	| 0.977965	| 0.977306	| 0.980706|
+| LightGBM Tomek Less Feature        | 0.97783	| 0.977705	| 0.977028	| 0.980501 |
 
 </details>
 
