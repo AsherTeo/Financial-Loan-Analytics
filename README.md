@@ -69,6 +69,18 @@ The top three states, California, New York, and Texas, have generated the highes
 
 On average, sectors such as Education, Military, and Financial Services have demonstrated the highest profitability, whereas the self-employed sector exhibits a negative profile. This observation suggests the possibility of reducing the allocation of loans to self-employed individuals, as their ventures are not yielding significant profits. Conversely, there may be an opportunity to increase lending in the Education sector or introduce alternative schemes to attract more borrowers from profitable sectors.
 
+3) **Charged Off Loans with categorical features**
+
+In this section, we will analyze categorical features with a loan status of "charged off." This is an important investigation as "charged off" loans represent instances where no profit was made, and understanding the contributing features can provide insights into factors associated with unsuccessful loan outcomes.
+
+We observe a clear trend in the 'Grade' classification, where the likelihood of charged-off loans increases with the progression through the alphabetical grading system from 'A' to 'G'. Notably, Grade 'G' presents the highest risk, with a 31% rate of charged-off loans.
+
+Additionally, small business loans stand out, with a quarter of them resulting in charge-offs. This observation aligns with previous findings indicating negative profitability for small business loans.
+
+Moreover, Nebraska state exhibits an incredibly high charged-off rate of 60%, which aligns with our findings indicating it has the lowest profitability percentage.
+
+Additionally, the peak months for charged-off loans are May and December. May might exhibit elevated default rates owing to seasonal influences like heightened spending on vacations or home improvement projects. Conversely, December, being the holiday season, could experience increased default rates due to heightened expenditures combined with financial strain from holiday-related expenses.
+
 
 
 
