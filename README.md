@@ -69,11 +69,19 @@ The top three states, California, New York, and Texas, have generated the highes
 
 On average, sectors such as Education, Military, and Financial Services have demonstrated the highest profitability, whereas the self-employed sector exhibits a negative profile. This observation suggests the possibility of reducing the allocation of loans to self-employed individuals, as their ventures are not yielding significant profits. Conversely, there may be an opportunity to increase lending in the Education sector or introduce alternative schemes to attract more borrowers from profitable sectors.
 
-3) **Charged Off Loans with categorical features**
+3) **Charged Off Loans with Categorical Features**
 
 In our analysis of loans with a "charged off" status, we observed notable trends. The likelihood of loans being charged off increases as the grading system progresses from 'A' to 'G', with Grade 'G' presenting the highest risk at a 31% charge-off rate. Small business loans stand out, with a quarter of them resulting in charge-offs, consistent with findings indicating negative profitability in this sector. Nebraska exhibits a remarkably high charge-off rate of 60%, aligning with its low profitability percentage. Furthermore, peak charge-off months are May and December, potentially due to seasonal factors such as increased spending on vacations and holiday-related expenses.
 
+4) **Interest Rate with Categorical Features**
+   
+Higher interest rates often signal increased risk. For example, loans with longer durations, like 60-month terms, typically have higher rates than shorter-term loans, such as 36-month ones. Loan grades also follow this trend, with 'G' graded loans having the highest average rate (22%) and 'A' graded loans the lowest (7%). Rental properties and small business loans tend to have higher rates due to their perceived risk. Military occupations often face higher rates, reflecting the risks involved. December usually sees elevated rates, likely due to holiday spending.
 
+5) **Debt-To-Income with Categorical Features**
+   
+A higher Debt-to-Income (DTI) ratio usually indicates increased financial risk, showing that a larger portion of income is used to repay debts, potentially straining finances. This risk can be heightened by other factors. For example, borrowers with lower credit grades often have higher DTI ratios, as do those using credit cards due to revolving credit structures. Certain occupations, like military service, may also show higher DTI ratios, influenced by salary structures or deployment-related expenses.
+
+Geographical variations in DTI ratios can offer insights into regional risk profiles. States like Nebraska, with higher DTI ratios, may reflect local economic conditions or cost-of-living factors, contributing to increased financial risk in those areas.
 
 
 ### 4) Machine Learning Analysis
