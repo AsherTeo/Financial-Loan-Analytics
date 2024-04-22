@@ -94,11 +94,15 @@ A higher Debt-to-Income (DTI) ratio usually indicates increased financial risk, 
 Geographical variations in DTI ratios can offer insights into regional risk profiles. States like Nebraska, with higher DTI ratios, may reflect local economic conditions or cost-of-living factors, contributing to increased financial risk in those areas.
 
 <details>
+
 ### 4) Machine Learning Analysis
 
 
 ### 5) Hypothesis Overview
 
-
+<details>
+  <summary>Machine Learning Graphical User Interface (GUI)</summary>
+  
 ### 6) Machine Learning Graphical User Interface (GUI)
 ![output](https://github.com/AsherTeo/Financial-Loan-Analytics/assets/78581569/c3c2a1f3-6dd3-41b0-ac4b-32f1a6588c3c)
+<details>
