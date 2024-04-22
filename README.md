@@ -109,9 +109,17 @@ For feature selection, prior to training, we first utilize chi-square `chi2_cont
 
 The first step is to scale the numerical features using Standard Scaler. This is to ensure all numerical features are normalized to a consistent range, preventing certain features from dominating others during model training. Next, categorical features are transformed into one-hot encoding format. The dataset is then divided into an 80-20 split, with 80% designated for training and 20% for testing. Given the severe class imbalance in the dataset, we first train a baseline model to evaluate its performance. Our primary metric is the F1 score, as it combines both precision and recall to assess model effectiveness. 
 
-Subsequently, we address the class imbalance using techniques such as undersampling and oversampling. For undersampling, we employ Tomek Links, which involve removing instances from the majority class that form Tomek links with instances from the minority class, rather than downsampling the larger class to match the size of the smaller class. For oversampling, we utilize SMOTE (Synthetic Minority Over-sampling Technique), which synthesizes instances for the minority class by leveraging K-nearest neighbor relationships. The number of nearest neighbors (K) is adjustable to suit the specific dataset characteristics and modeling objectives.
+Subsequently, we address the class imbalance using techniques such as undersampling and oversampling. For undersampling, we employ Tomek Links, which involve removing instances from the majority class that form Tomek links with instances from the minority class, rather than downsampling the larger class to match the size of the smaller class. For oversampling, we utilize SMOTE (Synthetic Minority Over-sampling Technique), which synthesizes instances for the minority class by leveraging K-nearest neighbor relationships. The number of nearest neighbors (K) is adjustable to suit the specific dataset characteristics and modeling objectives. Despite Tomek Links yielding slight improvements in model performance, SMOTE did not prove effective in my case.
 
-### Baseline
+Moving to feature selection with XGB models, 'Vermont', 'Tennessee', 'South Dakota', 'Mississippi', and 'Oklahoma' in the 'State' feature are replaced with 'Others' due to their lower importance. The model is then re-trained with the reduced feature set. 
+
+Finally, we employ `Optuna` to optimize the models by tuning the parameters of XGBoost with Tomek Links and LightGBM with Tomek Links. This optimization process ensures that the models perform optimally by fine-tuning their parameters based on specified evaluation metrics. Our top-performing model is determined to be XGBoost with Tomek Links after the optimization process. 
+
+### 6) Result
+
+The table presented below is sorted based on the F1 score of each model.
+
+### Baseline 
 
 | Model                  | Precision |   Recall |      F1   |   AUC   |
 |------------------------|-----------|----------|-----------|---------|
