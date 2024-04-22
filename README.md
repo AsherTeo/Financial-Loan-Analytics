@@ -9,6 +9,10 @@ For this project, we utilize a financial loan dataset to delve into insights acr
 Subsequently, we trained and optimized a machine learning model using feature selection techniques such as **Chi-Square** and **ANOVA**, along with `optuna` to select the best hyperparameters for the XGBoost (XGB) model. The target label 'loan status' was used as y in this process. To create a binary classification task determining 'Approved' or 'Not Approved', we modified the 'loan status' variable, assigning the label '1' to instances of 'Current' and 'Fully Paid', and '0' to instances of 'Charged Off'.  This was done to predict whether applicants will be eligible for loans in the future. The process was facilitated through a machine learning graphical user interface (GUI) provided by `gradio`, as demonstrated below. 
 
 If you want to explore further or experiment with the GUI, feel free to check out the script labeled **Gradio.ipynb**.
+</details>
+
+<details>
+  <summary>Key Features</summary>
 
 ## Key Features
 - **Financial Loan Dataset**: Extraction of data from Microsoft SQL Server
@@ -93,7 +97,7 @@ A higher Debt-to-Income (DTI) ratio usually indicates increased financial risk, 
 
 Geographical variations in DTI ratios can offer insights into regional risk profiles. States like Nebraska, with higher DTI ratios, may reflect local economic conditions or cost-of-living factors, contributing to increased financial risk in those areas.
 
-<details>
+</details>
 
 ### 4) Machine Learning Analysis
 
@@ -105,4 +109,5 @@ Geographical variations in DTI ratios can offer insights into regional risk prof
   
 ### 6) Machine Learning Graphical User Interface (GUI)
 ![output](https://github.com/AsherTeo/Financial-Loan-Analytics/assets/78581569/c3c2a1f3-6dd3-41b0-ac4b-32f1a6588c3c)
-<details>
+
+</details>
