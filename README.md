@@ -108,7 +108,19 @@ For feature selection, prior to training, we first utilize chi-square `chi2_cont
 
 The process begins with the standardization of numerical data using the Standard Scaler. This step ensures that all numerical features are normalized to a consistent range, preventing certain features from dominating others during model training.
 
+### Baseline
 
+| Model                  | Precision |   Recall |      F1   |
+|------------------------|-----------|----------|-----------|
+| XGB                    | 0.975600	 | 0.975632 |  0.974903 |
+| LGM                    | 0.975928	 | 0.975632 |  0.974754	|
+| CAT                    | 0.975997  | 0.975502 |  0.974543 |
+| Deep Learning	         | 0.961656  | 0.962541 |  0.961784	|
+| Gradient Boosting      | 0.964339  | 0.963189 |  0.960869 |
+| SVM	                   | 0.962597	 | 0.961115	|  0.958429 |
+| Logistic Regression    | 0.957500  | 0.957874 |  0.955612 |
+| Random Forest          | 0.937530	 | 0.932988 |  0.923629 |
+| Extra Tree             | 0.897654  | 0.891380 |  0.861148	|
 
 
 </details>
