@@ -159,7 +159,7 @@ The table presented below is sorted based on the F1 score of each model.
 
 | Model                  | Precision |   Recall |      F1   |   AUC   |
 |------------------------|-----------|----------|-----------|---------|
-| **XGBoost Tomek Less Feature**     | 0.97808	| 0.977965	| 0.977306	| 0.980706|
+| **XGBoost Tomek Less Feature**     | 0.97808	| 0.977965	| **0.977306**	| 0.980706|
 | LightGBM Tomek Less Feature        | 0.97783	| 0.977705	| 0.977028	| 0.980501 |
 
 Our top-performing model, utilizing XGBoost with Tomek Links and a reduced feature set, was achieved with the following hyperparameters: 'gamma': 0.04994580917280129, 'learning_rate': 0.05122322664789635, 'max_depth': 30, and 'n_estimators': 1903.
