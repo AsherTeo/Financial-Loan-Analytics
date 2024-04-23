@@ -20,8 +20,9 @@ If you want to explore further or experiment with the GUI, feel free to check ou
      
 2) **Loan Performance Analysis: (Machine Learning)**
    
-    - Employ machine learning techniques to analyze the loan status column and understand the performance of loans over time.
-    - Evaluate the influence of features such as employment length, loan grade, home ownership, and loan purpose on loan status to identify key drivers of loan performance.
+    - Develop a machine learning model for predicting loan approval in future applications
+    -Analyze the influence of features like employment length, loan grade, home ownership, and loan purpose on loan status.
+    - Utilize machine learning techniques to dissect the loan status column, aiming to identify key drivers impacting loan performance over time.
      
 </details>
 
