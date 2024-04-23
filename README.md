@@ -170,8 +170,6 @@ In this demo, we have integrated our optimized machine learning models into Grad
 
 Explore the power of machine learning in action with just a few clicks!
 
-If you want to explore further or experiment with the GUI, feel free to check out the script labeled **Gradio.ipynb**.
-
 ![output](https://github.com/AsherTeo/Financial-Loan-Analytics/assets/78581569/c3c2a1f3-6dd3-41b0-ac4b-32f1a6588c3c)
 
-
+If you want to explore further or experiment with the GUI, feel free to check out the script labeled **Gradio.ipynb**.
