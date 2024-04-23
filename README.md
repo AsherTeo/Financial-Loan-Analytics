@@ -15,7 +15,7 @@ If you want to explore further or experiment with the GUI, feel free to check ou
 
 1) **Profitability Analysis:(Power BI)**
    
-    - Utilize Power BI to identify categorical features such as months and loan purposes with the highest while also lowest profitability and explore geographical data to uncover patterns in profitability across different states.
+    - Utilize Power BI to identify categorical features such as months and loan purposes with the highest and lowest profitability, while also exploring geographical data to unveil patterns in profitability across diverse states.
     - Explore the impact of factors like interest rate, loan amount, and term on profitability to uncover insights into business performance.
      
 2) **Loan Performance Analysis: (Machine Learning)**
