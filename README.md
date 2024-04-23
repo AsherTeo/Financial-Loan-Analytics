@@ -9,21 +9,6 @@ Subsequently, we trained and optimized a machine learning model using feature se
 If you want to explore further or experiment with the GUI, feel free to check out the script labeled **Gradio.ipynb**.
 
 <details>
-  <summary>Key Features</summary>
-
-## Key Features
-- **Financial Loan Dataset**: Extraction of data from Microsoft SQL Server
-- **Feature Engineering**: Utilize K-means clustering to group job titles into distinct job categories and remove redundant features such as ID, last_credit_pull_date	last_payment_date, etc
-- **Data Analysis**: Performing in-depth analysis of the dataset to extract insights and understand the relationships between different features and loan profitability. 
-- **Feature Selection**: Employ feature selection techniques like Chi-Square and ANOVA to eliminate features with p-values exceeding 0.05.
-- **Machine Learning Model**: Experiment with various machine learning algorithms including XGBoost, LightGBM, CatBoost, and Random Forest to predict future loan eligibility based on selected features and target labels and assess the performance of each model using the F1 score to determine the best-performing model.
-- **Class Imbalance Technique**: Experiment with undersampling techniques like Tomek Links and oversampling techniques like SMOTE to assess if the results improve.
-- **Hyperparameter Tuning**: Utilizing Optuna to automatically select the best hyperparameters for the machine learning model, enhancing its predictive performance.
-- **Interactive Dashboard**: Enhancing data visualization using Power BI to create detailed and dynamic visualizations for better understanding and interpretation of results.
-- **Graphical User Interface (GUI)**: Facilitating the machine learning process through a graphical user interface (GUI) provided by gradio, allowing for easy interaction and prediction of loan eligibility.
-</details>
-
-<details>
   <summary>Objective</summary>
   
 ## Objective
@@ -38,6 +23,21 @@ If you want to explore further or experiment with the GUI, feel free to check ou
     - Employ machine learning techniques to analyze the loan status column and understand the performance of loans over time.
     - Evaluate the influence of features such as employment length, loan grade, home ownership, and loan purpose on loan status to identify key drivers of loan performance.
      
+</details>
+
+<details>
+  <summary>Key Features</summary>
+
+## Key Features
+- **Financial Loan Dataset**: Extraction of data from Microsoft SQL Server
+- **Feature Engineering**: Utilize K-means clustering to group job titles into distinct job categories and remove redundant features such as ID, last_credit_pull_date	last_payment_date, etc
+- **Data Analysis**: Performing in-depth analysis of the dataset to extract insights and understand the relationships between different features and loan profitability. 
+- **Feature Selection**: Employ feature selection techniques like Chi-Square and ANOVA to eliminate features with p-values exceeding 0.05.
+- **Machine Learning Model**: Experiment with various machine learning algorithms including XGBoost, LightGBM, CatBoost, and Random Forest to predict future loan eligibility based on selected features and target labels and assess the performance of each model using the F1 score to determine the best-performing model.
+- **Class Imbalance Technique**: Experiment with undersampling techniques like Tomek Links and oversampling techniques like SMOTE to assess if the results improve.
+- **Hyperparameter Tuning**: Utilizing Optuna to automatically select the best hyperparameters for the machine learning model, enhancing its predictive performance.
+- **Interactive Dashboard**: Enhancing data visualization using Power BI to create detailed and dynamic visualizations for better understanding and interpretation of results.
+- **Graphical User Interface (GUI)**: Facilitating the machine learning process through a graphical user interface (GUI) provided by gradio, allowing for easy interaction and prediction of loan eligibility.
 </details>
 
 <details>
