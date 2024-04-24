@@ -166,6 +166,10 @@ Our top-performing model, utilizing XGBoost with Tomek Links and a reduced featu
 
 </details>
 
+### Financial Loan Analysis Dashboard 
+
+![powerbi_video1 (3)](https://github.com/AsherTeo/Financial-Loan-Analytics/assets/78581569/974841b8-b320-417e-9cd4-e1becd912c1b)
+
 ### Loan Approved Predictor
 
 In this demo, we have integrated our optimized machine learning models into Gradio, leveraging its intuitive graphical user interface (GUI) capabilities for an enhanced user experience. With Gradio, users can effortlessly adjust parameters and interact with our machine learning model to predict loan approval status. Simply click and adjust the parameters to observe how changes affect the Loan Approved predictor's decision. 
@@ -178,7 +182,7 @@ If you want to explore further or experiment with the GUI, feel free to check ou
 
 
 
-![powerbi_video1 (3)](https://github.com/AsherTeo/Financial-Loan-Analytics/assets/78581569/974841b8-b320-417e-9cd4-e1becd912c1b)
+
 
 
 
