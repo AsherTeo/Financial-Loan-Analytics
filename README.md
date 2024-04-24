@@ -181,28 +181,29 @@ Explore the power of machine learning in action with just a few clicks!
 If you want to explore further or experiment with the GUI, feel free to check out the script labeled **Gradio.ipynb**.
 
 
-## Conclusion
+## Conclusion (Top 5 Feature's Importance)
 
 1) **Profitability Analysis:(Power BI)**
    - The most impactful features are....
 
 2) **Loan Performance Analysis: (Machine Learning)**
-   The most impactful features are....
-   1) Loan Amount (6.389%):
+   The Loan Performance Analysis revealed the following key features that significantly impact loan performance:
+   
+   1) Loan Amount (12.76%):
       The amount of the loan is a significant factor, indicating that larger or smaller loan amounts may affect performance.
       
-   2) Total Payment (5.376%):
-      The total payment made over the loan term influences performance, suggesting that the borrower's ability to make payments impacts loan performance.
+   2) Total Payment (7.54%):
+      Total payment is important factors as it influnces the likelihood of loan approval, indicating that the borrower's capacity which is a critical factor to consider during the approval process.
       
-   3) Terms (36 Months) (4.726%):
-      Loans with a term of 36 months appear to have a notable impact on performance, potentially indicating that this specific loan duration affects repayment behavior.
+   3) Installment (6.33%):
+      The monthly payment ranks among the top 5 important features, indicating the applicant's ability to manage regular payments.
       
-   4) Installment (2.53%):
-      The monthly installment amount has a moderate impact, implying that the size of the periodic payments influences loan performance.
+   4) Terms (36 Months) (4.81%):
+      Loans with a 36-month term suggest a higher likelihood of loan approval, as shorter repayment periods are generally easier to manage compared to 72 months.
       
-   5) Issue Date - December (2.491% ):
-    Loans issued in December seem to have a modest impact on performance, suggesting seasonality or other factors specific to this month.
-  
+   5) Grade (A) (1.59% ):
+      Borrowers with Grade A rating, representing the least risk, show a slight impact on loan performance, indicating a correlation between lower risk levels and better loan performance.
+      
 
 
 
