@@ -187,6 +187,7 @@ If you want to explore further or experiment with the GUI, feel free to check ou
    - The most impactful features are....
 
 2) **Loan Performance Analysis: (Machine Learning)**
+
    The Loan Performance Analysis revealed the following key features that significantly impact loan performance:
    
    1) Loan Amount (12.76%):
