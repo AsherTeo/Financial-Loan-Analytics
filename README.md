@@ -187,7 +187,22 @@ If you want to explore further or experiment with the GUI, feel free to check ou
    - The most impactful features are....
 
 2) **Loan Performance Analysis: (Machine Learning)**
-   - The most impactful features are....
+   The most impactful features are....
+   1) Loan Amount (6.389%):
+      The amount of the loan is a significant factor, indicating that larger or smaller loan amounts may affect performance.
+      
+   2) Total Payment (5.376%):
+      The total payment made over the loan term influences performance, suggesting that the borrower's ability to make payments impacts loan performance.
+      
+   3) Terms (36 Months) (4.726%):
+      Loans with a term of 36 months appear to have a notable impact on performance, potentially indicating that this specific loan duration affects repayment behavior.
+      
+   4) Installment (2.53%):
+      The monthly installment amount has a moderate impact, implying that the size of the periodic payments influences loan performance.
+      
+   5) Issue Date - December (2.491% ):
+    Loans issued in December seem to have a modest impact on performance, suggesting seasonality or other factors specific to this month.
+  
 
 
 
