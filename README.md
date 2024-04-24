@@ -164,6 +164,15 @@ The table presented below is sorted based on the F1 score of each model.
 
 Our top-performing model, utilizing XGBoost with Tomek Links and a reduced feature set, was achieved with the following hyperparameters: 'gamma': 0.04994580917280129, 'learning_rate': 0.05122322664789635, 'max_depth': 30, and 'n_estimators': 1903.
 
+### 7) Conclusion
+
+1) **Profitability Analysis:(Power BI)**
+   - The most impactful features are....
+
+2) **Loan Performance Analysis: (Machine Learning)**
+   - The most impactful features are....
+
+   
 </details>
 
 ### Financial Loan Analysis Dashboard 
