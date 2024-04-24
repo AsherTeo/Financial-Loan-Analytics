@@ -164,22 +164,13 @@ The table presented below is sorted based on the F1 score of each model.
 
 Our top-performing model, utilizing XGBoost with Tomek Links and a reduced feature set, was achieved with the following hyperparameters: 'gamma': 0.04994580917280129, 'learning_rate': 0.05122322664789635, 'max_depth': 30, and 'n_estimators': 1903.
 
-### 7) Conclusion
-
-1) **Profitability Analysis:(Power BI)**
-   - The most impactful features are....
-
-2) **Loan Performance Analysis: (Machine Learning)**
-   - The most impactful features are....
-
-   
 </details>
 
-### Financial Loan Analysis Dashboard 
+## Financial Loan Analysis Dashboard 
 
 ![powerbi_video1 (3)](https://github.com/AsherTeo/Financial-Loan-Analytics/assets/78581569/974841b8-b320-417e-9cd4-e1becd912c1b)
 
-### Loan Approved Predictor
+## Loan Approved Predictor
 
 In this demo, we have integrated our optimized machine learning models into Gradio, leveraging its intuitive graphical user interface (GUI) capabilities for an enhanced user experience. With Gradio, users can effortlessly adjust parameters and interact with our machine learning model to predict loan approval status. Simply click and adjust the parameters to observe how changes affect the Loan Approved predictor's decision. 
 
@@ -190,6 +181,13 @@ Explore the power of machine learning in action with just a few clicks!
 If you want to explore further or experiment with the GUI, feel free to check out the script labeled **Gradio.ipynb**.
 
 
+## Conclusion
+
+1) **Profitability Analysis:(Power BI)**
+   - The most impactful features are....
+
+2) **Loan Performance Analysis: (Machine Learning)**
+   - The most impactful features are....
 
 
 
