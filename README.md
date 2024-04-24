@@ -175,3 +175,10 @@ Explore the power of machine learning in action with just a few clicks!
 ![output](https://github.com/AsherTeo/Financial-Loan-Analytics/assets/78581569/c3c2a1f3-6dd3-41b0-ac4b-32f1a6588c3c)
 
 If you want to explore further or experiment with the GUI, feel free to check out the script labeled **Gradio.ipynb**.
+
+
+![powerbi_video1-ezgif com-video-to-gif-converter](https://github.com/AsherTeo/Financial-Loan-Analytics/assets/78581569/b677fca2-81e0-493b-b783-5e9e12f511ca)
+
+
+
+
