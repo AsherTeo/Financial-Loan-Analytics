@@ -173,12 +173,11 @@ Explore the power of machine learning in action with just a few clicks!
 
 If you want to explore further or experiment with the GUI, feel free to check out the script labeled **Gradio.ipynb**.
 
-<details>
+## Installation
   
+<details>
   <summary>Installation</summary>
   
-  ## Installation
-
 The code is developed using Python version 3.10.14  If Python is not already installed on your system, you can download it [here](https://www.python.org/downloads/). If your current Python version is lower than 3.10.14  you can upgrade it using the pip package manager. Make sure you have the latest version of pip installed. To install the necessary packages and libraries, execute the following command in the project directory after cloning the repository:
 
 ```bash
