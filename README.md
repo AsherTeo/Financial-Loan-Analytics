@@ -13,8 +13,6 @@ Next, we train and optimize a machine learning model using techniques like  **Ch
 <details>
   <summary>Objective</summary>
   
-
-
 1) **Profitability Analysis:(Power BI)**
    
     - Utilize Power BI to identify categorical features such as months and loan purposes with the highest and lowest profitability, while also exploring geographical data to unveil patterns in profitability across diverse states.
@@ -79,10 +77,10 @@ We initiate our Exploratory Data Analysis by examining univariate distributions,
 <details>
   <summary> Bivariate/Multivariate Distributions</summary>
   
-  ![image](https://github.com/AsherTeo/Financial-Loan-Analytics/assets/78581569/505678a4-c915-4cb3-8236-189b7257da11)
-
 1) **Analyzing Profit by State**
    
+    ![image](https://github.com/AsherTeo/Financial-Loan-Analytics/assets/78581569/505678a4-c915-4cb3-8236-189b7257da11)
+
 The top three states, California, New York, and Texas, have generated the highest profits, amounting to 5.4 million, 4 million, and $3 million, respectively. It's worth noting that California, New York, and Texas are among the top 10 most populous states in the U.S., as indicated by [StatsAmerica](https://www.statsamerica.org/sip/rank_list.aspx?rank_label=pop1) which could contribute to their higher profitability due to increased business activity and investment opportunities. Conversely, three states, Tennessee, Nebraska, and Indiana, have incurred negative profits.
 
 2) **Analyzing Profit by Job Title & Purpose**
