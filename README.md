@@ -10,9 +10,6 @@ Next, we train and optimize a machine learning model using techniques like  **Ch
 
 ## Objective
 
-<details>
-  <summary>Objective</summary>
-  
 1) **Profitability Analysis:(Power BI)**
    
     - Utilize Power BI to identify categorical features such as months and loan purposes with the highest and lowest profitability, while also exploring geographical data to unveil patterns in profitability across diverse states.
@@ -22,9 +19,7 @@ Next, we train and optimize a machine learning model using techniques like  **Ch
    
     - Develop a machine learning model for predicting loan approval in future applications
     - Analyze the influence of features like employment length, loan grade, home ownership, and loan purpose on loan status.
-     
-</details>
-
+    
 ## Key Features
 
 <details>
@@ -164,13 +159,6 @@ Our top-performing model, utilizing XGBoost with Tomek Links and a reduced featu
 
 </details>
 
-## Installation
-
-The code is developed using Python version 3.10.14  If Python is not already installed on your system, you can download it [here](https://www.python.org/downloads/). If your current Python version is lower than 3.10.14  you can upgrade it using the pip package manager. Make sure you have the latest version of pip installed. To install the necessary packages and libraries, execute the following command in the project directory after cloning the repository:
-
-```bash
-pip install -r requirements.txt
-```
 ## Financial Loan Analysis Dashboard 
 
 ![powerbi_video1 (3)](https://github.com/AsherTeo/Financial-Loan-Analytics/assets/78581569/974841b8-b320-417e-9cd4-e1becd912c1b)
@@ -185,6 +173,19 @@ Explore the power of machine learning in action with just a few clicks!
 
 If you want to explore further or experiment with the GUI, feel free to check out the script labeled **Gradio.ipynb**.
 
+<details>
+  
+  <summary>Installation</summary>
+  
+  ## Installation
+
+The code is developed using Python version 3.10.14  If Python is not already installed on your system, you can download it [here](https://www.python.org/downloads/). If your current Python version is lower than 3.10.14  you can upgrade it using the pip package manager. Make sure you have the latest version of pip installed. To install the necessary packages and libraries, execute the following command in the project directory after cloning the repository:
+
+```bash
+pip install -r requirements.txt
+```
+  </details>
+  
 ## Top 5 Importance Features
 
 <details>
