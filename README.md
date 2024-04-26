@@ -4,7 +4,7 @@
 
 For this project, we're diving into insights from a financial loan dataset, aiming to uncover key contributors to profitability and understand the effects of variables like interest rates, debt-to-income ratios, and annual income. We'll also explore correlations between these factors and profitability while considering additional relevant factors.
 
-We start by extracting data using **SQL** and perform our analysis using **Python**, leveraging `pandas` for data manipulation, `seaborn` for visualization, and `scikit-learn` for machine learning tasks. Additionally, we enhance our visualizations with Power BI's interactive dashboard features for more detailed and dynamic presentations.
+We start by extracting data using **SQL** and perform our analysis using **Python**, leveraging `pandas` for data manipulation, `seaborn` for visualization, and `scikit-learn` for machine learning tasks. Additionally, we enhance our visualizations with **Power BI**'s interactive dashboard features for more detailed and dynamic presentations.
 
 Next, we train and optimize a machine learning model using techniques like  **Chi-Square**  and **ANOVA** for feature selection, and optuna for hyperparameter tuning of the XGBoost (XGB) model. Our target label, 'loan status', is used to create a binary classification task where 'Approved' or 'Not Approved' are determined. To achieve this, we reassign labels, marking instances of 'Current' and 'Fully Paid' as '1' and 'Charged Off' as '0'. This allows us to predict future loan eligibility for applicants. The process is streamlined through a machine learning graphical user interface (GUI) provided by `gradio`, as demonstrated below.
 
