@@ -168,7 +168,7 @@ Explore the power of machine learning in action with just a few clicks!
 If you want to explore further or experiment with the GUI, feel free to check out the script labeled **Gradio.ipynb**.
 
 <details>
-  <summary>Objective</summary>
+  <summary>Top 5 Importance Features</summary>
   
 ## Top 5 Importance Features
 1) **Profitability Analysis:(Power BI)**
