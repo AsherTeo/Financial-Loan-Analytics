@@ -167,6 +167,9 @@ Explore the power of machine learning in action with just a few clicks!
 
 If you want to explore further or experiment with the GUI, feel free to check out the script labeled **Gradio.ipynb**.
 
+<details>
+  <summary>Objective</summary>
+  
 ## Top 5 Importance Features
 1) **Profitability Analysis:(Power BI)**
    
@@ -207,7 +210,8 @@ If you want to explore further or experiment with the GUI, feel free to check ou
       
    5) Grade (A) (1.59% ):
       Borrowers with Grade A rating, representing the least risk, show a slight impact on loan performance, indicating a correlation between lower risk levels and better loan performance.
-      
+ </details>  
+ 
 ## Conclusion 
 In conclusion, our analysis identifies total payment, installment consistency, loan amount, loan term, and borrower grade as the top features crucial for both loan profitability and performance. Total payment reflects borrower commitment and creditworthiness, while installment consistency indicates responsible financial management. Loan amount, regardless of size, significantly impacts financial outcomes, stressing the importance of precise loan sizing. Additionally, loan term duration and borrower grade provide valuable insights, with shorter terms and lower-risk borrowers correlating with higher profitability and better loan performance. These consistent findings highlight the critical role of these features in guiding lending decisions and optimizing loan performance, ultimately driving improved financial outcomes and sustainable growth in lending operations.
 
