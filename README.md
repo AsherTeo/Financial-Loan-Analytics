@@ -166,6 +166,11 @@ Our top-performing model, utilizing XGBoost with Tomek Links and a reduced featu
 
 ## Installation
 
+The code is developed using Python version 3.10.14  If Python is not already installed on your system, you can download it [here](https://www.python.org/downloads/). If your current Python version is lower than 3.10.14  you can upgrade it using the pip package manager. Make sure you have the latest version of pip installed. To install the necessary packages and libraries, execute the following command in the project directory after cloning the repository:
+
+```bash
+pip install -r requirements.txt
+```
 ## Financial Loan Analysis Dashboard 
 
 ![powerbi_video1 (3)](https://github.com/AsherTeo/Financial-Loan-Analytics/assets/78581569/974841b8-b320-417e-9cd4-e1becd912c1b)
