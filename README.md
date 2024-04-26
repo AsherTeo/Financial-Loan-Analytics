@@ -74,9 +74,13 @@ We initiate our Exploratory Data Analysis by examining univariate distributions,
   - There is a noticeable increase in loan issuance towards the end of the year, particularly in December and November. This trend could be attributed to various factors such as end-of-year financial planning, holiday expenses, or seasonal spending patterns. November might see a surge in loan issuance due to the preparation for holiday expenses and end-of-year financial decisions, which often coincide with the upcoming holiday season.
 </details>
 
+**Bivariate/Multivariate Distributions**
+
 <details>
   <summary> Bivariate/Multivariate Distributions</summary>
   
+  ![image](https://github.com/AsherTeo/Financial-Loan-Analytics/assets/78581569/505678a4-c915-4cb3-8236-189b7257da11)
+
 1) **Analyzing Profit by State**
    
 The top three states, California, New York, and Texas, have generated the highest profits, amounting to 5.4 million, 4 million, and $3 million, respectively. It's worth noting that California, New York, and Texas are among the top 10 most populous states in the U.S., as indicated by [StatsAmerica](https://www.statsamerica.org/sip/rank_list.aspx?rank_label=pop1) which could contribute to their higher profitability due to increased business activity and investment opportunities. Conversely, three states, Tennessee, Nebraska, and Indiana, have incurred negative profits.
