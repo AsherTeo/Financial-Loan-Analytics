@@ -65,7 +65,7 @@ In feature engineering, `Selenium` is utilized to extract the longitude and lati
 
 We initiate our Exploratory Data Analysis by examining univariate distributions, focusing on both numerical and categorical features. For numerical features, we apply box plot and remove extreme outliers from 'annual income' and 'total account' and assess skewness using the `stats` library, revealing a high right-skewness value of 31.04 for the annual income feature. Given that this is a classification problem, it's worth noting that non-parametric models like XGBoost (XGB) and LightGBM (LGM) are less impacted by skewness. For categorical features, we employ bar plots to analyze the distribution of loan statuses and loan terms:
 
-![image](https://github.com/AsherTeo/Financial-Loan-Analytics/assets/78581569/c39d988a-94bf-419c-bbe5-3d388bc13e0d)
+![image](https://github.com/AsherTeo/Financial-Loan-Analytics/assets/78581569/b0aa5591-150e-4485-8f6d-7d696ebecc61)
 
   - Loans with a term of 36 months are nearly three times as common as those with a term of 60 months indicating a strong preference among borrowers for shorter loan durations.
     
