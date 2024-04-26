@@ -2,9 +2,11 @@
 
 ## Overview
 
-For this project, we utilize a financial loan dataset to delve into insights across various features. Our objectives include determining which categorical features contribute most significantly to profitability, evaluating the impact of interest rates, debt-to-income, annual income on profits, investigating correlations between these variables and profitability, and exploring additional factors of interest. For this analysis, we leverage SQL for data extraction, and Python equipped with the `pandas` library for data analysis, `seaborn` for data visualization, and `scikit-learn` for machine learning. Furthermore, we enhance our visualization with the interactive dashboard features of **Power BI** , providing more detailed and dynamic visualizations. 
+For this project, we're diving into insights from a financial loan dataset, aiming to uncover key contributors to profitability and understand the effects of variables like interest rates, debt-to-income ratios, and annual income. We'll also explore correlations between these factors and profitability while considering additional relevant factors.
 
-Subsequently, we trained and optimized a machine learning model using feature selection techniques such as **Chi-Square** and **ANOVA**, along with `optuna` to select the best hyperparameters for the XGBoost (XGB) model. The target label 'loan status' was used as y in this process. To create a binary classification task determining 'Approved' or 'Not Approved', we modified the 'loan status' variable, assigning the label '1' to instances of 'Current' and 'Fully Paid', and '0' to instances of 'Charged Off'.  This was done to predict whether applicants will be eligible for loans in the future. The process was facilitated through a machine learning graphical user interface (GUI) provided by `gradio`, as demonstrated below. 
+We start by extracting data using **SQL** and perform our analysis using **Python**, leveraging `pandas` for data manipulation, `seaborn` for visualization, and `scikit-learn` for machine learning tasks. Additionally, we enhance our visualizations with Power BI's interactive dashboard features for more detailed and dynamic presentations.
+
+Next, we train and optimize a machine learning model using techniques like  **Chi-Square**  and **ANOVA** for feature selection, and optuna for hyperparameter tuning of the XGBoost (XGB) model. Our target label, 'loan status', is used to create a binary classification task where 'Approved' or 'Not Approved' are determined. To achieve this, we reassign labels, marking instances of 'Current' and 'Fully Paid' as '1' and 'Charged Off' as '0'. This allows us to predict future loan eligibility for applicants. The process is streamlined through a machine learning graphical user interface (GUI) provided by `gradio`, as demonstrated below.
 
 <details>
   <summary>Objective</summary>
@@ -169,12 +171,12 @@ If you want to explore further or experiment with the GUI, feel free to check ou
 ## Conclusion (Top 5 Feature's Importance)
 
 1) **Profitability Analysis:(Power BI)**
-   - The most impactful features are....
-     1) Total Payment
-     2) Installment
-     3) Loan Amount
-     4) Term
-     5) Grade
+   The analysis highlights the following features with the most significant impact on profitability:
+   1) Total Payment
+   2) Installment
+   3) Loan Amount
+   4) Term
+   5) Grade
 
 2) **Loan Performance Analysis: (Machine Learning)**
 
