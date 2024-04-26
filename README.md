@@ -181,7 +181,7 @@ If you want to explore further or experiment with the GUI, feel free to check ou
    3) Loan Amount(Correlation: 0.135):
      Regardless of its size, the loan amount significantly influences financial outcomes, emphasizing the need for careful loan sizing strategies.
 
-    **Top Cateogtercak Features**
+    **Top Categorical Features**
    
    4) Term:
      Shorter loan terms show potential to boost profitability. Offering additional options with shorter terms, such as 24 or 48 months, can cater to diverse borrower needs.
