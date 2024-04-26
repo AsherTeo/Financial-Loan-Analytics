@@ -27,10 +27,11 @@ Next, we train and optimize a machine learning model using techniques like  **Ch
      
 </details>
 
+## Key Features
+
 <details>
   <summary>Key Features</summary>
 
-## Key Features
 - **Financial Loan Dataset**: Extraction of data from Microsoft SQL Server
 - **Feature Engineering**: Utilize K-means clustering to group job titles into distinct job categories and remove redundant features such as ID, last_credit_pull_date	last_payment_date, etc
 - **Data Analysis**: Performing in-depth analysis of the dataset to extract insights and understand the relationships between different features and loan profitability. 
@@ -42,11 +43,11 @@ Next, we train and optimize a machine learning model using techniques like  **Ch
 - **Graphical User Interface (GUI)**: Facilitating the machine learning process through a graphical user interface (GUI) provided by gradio, allowing for easy interaction and prediction of loan eligibility.
 </details>
 
+## Methodology
+
 <details>
   <summary>Methodology</summary>
   
-## Methodology
-
 ### 1) Data Extraction & Data Wrangling
 
 To demonstrate my SQL skills, I manually import the dataset into Microsoft Server. Using SQL, I generate various results and insights, which are saved in an SQL Report under the SQL folder. Subsequently, I utilize the Python `pyodbc` library to extract the data from the SQL Server for further analysis and processing. Additionally, I conduct data wrangling tasks such as removing duplicates and missing values, and ensuring correct data types are assigned.
@@ -169,10 +170,11 @@ Explore the power of machine learning in action with just a few clicks!
 
 If you want to explore further or experiment with the GUI, feel free to check out the script labeled **Gradio.ipynb**.
 
+## Top 5 Importance Features
+
 <details>
   <summary>Top 5 Importance Features</summary>
   
-## Top 5 Importance Features
 1) **Profitability Analysis:(Power BI)**
    
     **Top Numerical Features**
