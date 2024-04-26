@@ -209,7 +209,7 @@ If you want to explore further or experiment with the GUI, feel free to check ou
       Borrowers with Grade A rating, representing the least risk, show a slight impact on loan performance, indicating a correlation between lower risk levels and better loan performance.
       
 ## Conclusion 
-
+In conclusion, our analysis identifies total payment, installment consistency, loan amount, loan term, and borrower grade as the top features crucial for both loan profitability and performance. Total payment reflects borrower commitment and creditworthiness, while installment consistency indicates responsible financial management. Loan amount, regardless of size, significantly impacts financial outcomes, stressing the importance of precise loan sizing. Additionally, loan term duration and borrower grade provide valuable insights, with shorter terms and lower-risk borrowers correlating with higher profitability and better loan performance. These consistent findings highlight the critical role of these features in guiding lending decisions and optimizing loan performance, ultimately driving improved financial outcomes and sustainable growth in lending operations.
 
 
 
