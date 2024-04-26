@@ -167,20 +167,31 @@ Explore the power of machine learning in action with just a few clicks!
 
 If you want to explore further or experiment with the GUI, feel free to check out the script labeled **Gradio.ipynb**.
 
-
-## Conclusion (Top 5 Feature's Importance)
-
+## Top 5 Importance Features
 1) **Profitability Analysis:(Power BI)**
-   The analysis highlights the following features with the most significant impact on profitability:
-   1) Total Payment
-   2) Installment
-   3) Loan Amount
-   4) Term
-   5) Grade
+   
+    **Top Numerical Features**
+   
+   1) Total Payment(Correlation: 0.577):
+     Total repayment plays a crucial role in our loan profitability. It's essential to select borrowers wisely, and leveraging predictive modeling can help identify those likely to repay.
+      
+   2) Installment(Correlation: 0.196):
+     While not as impactful as total payment, the consistency and affordability of installment payments are vital for financial stability.
+      
+   3) Loan Amount(Correlation: 0.135):
+     Regardless of its size, the loan amount significantly influences financial outcomes, emphasizing the need for careful loan sizing strategies.
+
+    **Top Cateogtercak Features**
+   
+   4) Term:
+     Shorter loan terms show potential to boost profitability. Offering additional options with shorter terms, such as 24 or 48 months, can cater to diverse borrower needs.
+      
+   5) Grade:
+      Borrower risk, determined by their grade, is correlated with loan performance. Lower-risk borrowers typically lead to better financial results.
 
 2) **Loan Performance Analysis: (Machine Learning)**
 
-   The Loan Performance Analysis revealed the following key features that significantly impact loan performance:
+   The Loan Performance Analysis revealed the following key features using XGB that significantly impact loan performance:
    
    1) Loan Amount (12.76%):
       The amount of the loan is a significant factor, indicating that larger or smaller loan amounts may affect performance.
@@ -197,6 +208,9 @@ If you want to explore further or experiment with the GUI, feel free to check ou
    5) Grade (A) (1.59% ):
       Borrowers with Grade A rating, representing the least risk, show a slight impact on loan performance, indicating a correlation between lower risk levels and better loan performance.
       
+## Conclusion 
+
+
 
 
 
