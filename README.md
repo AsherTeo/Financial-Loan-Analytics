@@ -166,6 +166,8 @@ Our top-performing model, utilizing XGBoost with Tomek Links and a reduced featu
 
 </details>
 
+## Installation
+
 ## Financial Loan Analysis Dashboard 
 
 ![powerbi_video1 (3)](https://github.com/AsherTeo/Financial-Loan-Analytics/assets/78581569/974841b8-b320-417e-9cd4-e1becd912c1b)
