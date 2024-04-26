@@ -214,7 +214,7 @@ If you want to explore further or experiment with the GUI, feel free to check ou
  
 ## Conclusion 
 
-In conclusion, total payment, installment consistency, loan amount, loan term, and borrower grade emerge as pivotal features for loan profitability and performance. Total payment reflects borrower commitment, while installment consistency indicates financial responsibility. Loan amount influences financial outcomes, emphasizing precise loan sizing. Shorter terms and lower-risk borrowers correlate with better performance. These findings underscore the importance of these features in guiding lending decisions and driving sustainable growth.
+In conclusion, the features of total payment, installment consistency, loan amount, loan term, and borrower grade are crucial for both loan profitability and approval. Total payment and installment consistency reflect borrower commitment and financial responsibility, essential for successful loan approval. The loan amount, term, and borrower grade provide valuable insights into loan profitability and performance. Leveraging predictive models that consider these factors allows lenders to select the right borrowers, maximizing profitability. In essence, by focusing on these key features, bank can optimize their lending practices and drive sustainable growth.
 
 
 
