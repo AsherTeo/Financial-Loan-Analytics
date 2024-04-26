@@ -8,10 +8,12 @@ We start by extracting data using **SQL** and perform our analysis using **Pytho
 
 Next, we train and optimize a machine learning model using techniques like  **Chi-Square**  and **ANOVA** for feature selection, and optuna for hyperparameter tuning of the XGBoost (XGB) model. Our target label, 'loan status', is used to create a binary classification task where 'Approved' or 'Not Approved' are determined. To achieve this, we reassign labels, marking instances of 'Current' and 'Fully Paid' as '1' and 'Charged Off' as '0'. This allows us to predict future loan eligibility for applicants. The process is streamlined through a machine learning graphical user interface (GUI) provided by `gradio`, as demonstrated below.
 
+## Objective
+
 <details>
   <summary>Objective</summary>
   
-## Objective
+
 
 1) **Profitability Analysis:(Power BI)**
    
