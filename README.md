@@ -105,8 +105,9 @@ Subsequently, we address the class imbalance using techniques such as undersampl
 Moving to feature selection with XGB models, 'Vermont', 'Tennessee', 'South Dakota', 'Mississippi', and 'Oklahoma' in the 'State' feature are replaced with 'Others' due to their lower importance. The model is then re-trained with the reduced feature set. 
 
 Finally, we employ `Optuna` to optimize the models by tuning the parameters of XGBoost with Tomek Links and LightGBM with Tomek Links. This optimization process ensures that the models perform optimally by fine-tuning their parameters based on specified evaluation metrics. Our top-performing model is determined to be XGBoost with Tomek Links after the optimization process. 
+</details>
 
-### 6) Result
+### Result
 
 The table presented below is sorted based on the F1 score of each model.
 
@@ -157,7 +158,7 @@ The table presented below is sorted based on the F1 score of each model.
 
 Our top-performing model, utilizing XGBoost with Tomek Links and a reduced feature set, was achieved with the following hyperparameters: 'gamma': 0.04994580917280129, 'learning_rate': 0.05122322664789635, 'max_depth': 30, and 'n_estimators': 1903.
 
-</details>
+
 
 ## Financial Loan Analysis Dashboard 
 
