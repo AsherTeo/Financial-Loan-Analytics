@@ -2,16 +2,16 @@
 
 ## Table of Contents
 
-- [Overview](#overview)
-- [Objective](#objective)
-- [Key Features](#key-features)
-- [Methodology](#Methodology)
-- [Result](#Result)
-- [Financial Loan Analysis Dashboard](#Financial-Loan-Analysis-Dashboard)
-- [Loan Approved Predictor](#Loan-Approved-Predictor)
-- [Top 5 Importance Features](#Top-5-Importance-Features)
-- [Installation](#Installation)
-- [Conclusion ](#Conclusion )
+1) [Overview](#overview)
+2) [Objective](#objective)
+3) [Key Features](#key-features)
+4) [Methodology](#methodology)
+5) [Result](#result)
+6) [Financial Loan Analysis Dashboard](#financial-loan-analysis-dashboard)
+7) [Loan Approved Predictor](#loan-approved-predictor)
+8) [Top 5 Importance Features](#top-5-importance-features)
+9) [Installation](#installation)
+10) [Conclusion](#conclusion)
 
 ## Overview
 
