@@ -1,4 +1,4 @@
-# Financial Loan Analysis with Dashboard (Below)
+# Financial Loan Analysis with Dashboard 
 
 ## Table of Contents
 
