@@ -1,3 +1,8 @@
+## Table of Contents
+
+- [Overview](#overview)
+- [Objective](#objective)
+- 
 # Financial Loan Analysis with Dashboard (Below)
 
 ## Overview
