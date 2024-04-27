@@ -4,10 +4,10 @@
 
 - [Overview](#overview)
 - [Objective](#objective)
-- [Key Features](#key_features)
+- [Key Features](#key-features)
 - [Methodology](#Methodology)
 - [Result](#Result)
-- [Financial Loan Analysis Dashboard](#Financial_Loan_Analysis_Dashboard)
+- [Financial Loan Analysis Dashboard](#Financial-Loan-Analysis-Dashboard)
 - [Loan Approved Predictor](#Loan_Approved_Predictor)
 - [Installation](#Installation)
 - [Top 5 Importance Features](#Top_5_Importance_Features)
