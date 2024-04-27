@@ -1,12 +1,17 @@
-# Table of Contents
+# Financial Loan Analysis with Dashboard (Below)
+
+## Table of Contents
 
 - [Overview](#overview)
 - [Objective](#objective)
-- [Key Features](#key-features)
+- [Key Features](#key_features)
 - [Methodology](#Methodology)
-
-
-# Financial Loan Analysis with Dashboard (Below)
+- [Result](#Result)
+- [Financial Loan Analysis Dashboard](#Financial_Loan_Analysis_Dashboard)
+- [Loan Approved Predictor](#Loan_Approved_Predictor)
+- [Installation](#Installation)
+- [Top 5 Importance Features](#Top_5_Importance_Features)
+- [Conclusion ](#Conclusion )
 
 ## Overview
 
