@@ -3,7 +3,7 @@
 - [Overview](#overview)
 - [Objective](#objective)
 - [Key Features](#key-features)
-
+- [Methodology](#Methodology)
 
 
 # Financial Loan Analysis with Dashboard (Below)
@@ -115,7 +115,7 @@ Moving to feature selection with XGB models, 'Vermont', 'Tennessee', 'South Dako
 Finally, we employ `Optuna` to optimize the models by tuning the parameters of XGBoost with Tomek Links and LightGBM with Tomek Links. This optimization process ensures that the models perform optimally by fine-tuning their parameters based on specified evaluation metrics. Our top-performing model is determined to be XGBoost with Tomek Links after the optimization process. 
 </details>
 
-### Result
+## Result
 
 The table presented below is sorted based on the F1 score of each model.
 
