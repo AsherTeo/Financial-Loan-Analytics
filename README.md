@@ -8,9 +8,9 @@
 - [Methodology](#Methodology)
 - [Result](#Result)
 - [Financial Loan Analysis Dashboard](#Financial-Loan-Analysis-Dashboard)
-- [Loan Approved Predictor](#Loan_Approved_Predictor)
+- [Loan Approved Predictor](#Loan-Approved-Predictor)
+- [Top 5 Importance Features](#Top-5-Importance-Features)
 - [Installation](#Installation)
-- [Top 5 Importance Features](#Top_5_Importance_Features)
 - [Conclusion ](#Conclusion )
 
 ## Overview
@@ -171,8 +171,6 @@ The table presented below is sorted based on the F1 score of each model.
 
 Our top-performing model, utilizing XGBoost with Tomek Links and a reduced feature set, was achieved with the following hyperparameters: 'gamma': 0.04994580917280129, 'learning_rate': 0.05122322664789635, 'max_depth': 30, and 'n_estimators': 1903.
 
-
-
 ## Financial Loan Analysis Dashboard 
 
 ![powerbi_video1 (3)](https://github.com/AsherTeo/Financial-Loan-Analytics/assets/78581569/974841b8-b320-417e-9cd4-e1becd912c1b)
@@ -187,18 +185,6 @@ Explore the power of machine learning in action with just a few clicks!
 
 If you want to explore further or experiment with the GUI, feel free to check out the script labeled **Gradio.ipynb**.
 
-## Installation
-  
-<details>
-  <summary>Installation</summary>
-  
-The code is developed using Python version 3.10.14  If Python is not already installed on your system, you can download it [here](https://www.python.org/downloads/). If your current Python version is lower than 3.10.14  you can upgrade it using the pip package manager. Make sure you have the latest version of pip installed. To install the necessary packages and libraries, execute the following command in the project directory after cloning the repository:
-
-```bash
-pip install -r requirements.txt
-```
-  </details>
-  
 ## Top 5 Importance Features
 
 <details>
@@ -243,8 +229,21 @@ pip install -r requirements.txt
       
    5) Grade (A) (1.59% ):
       Borrowers with Grade A rating, representing the least risk, show a slight impact on loan performance, indicating a correlation between lower risk levels and better loan performance.
+      
  </details>  
  
+ ## Installation
+  
+<details>
+  <summary>Installation</summary>
+  
+The code is developed using Python version 3.10.14  If Python is not already installed on your system, you can download it [here](https://www.python.org/downloads/). If your current Python version is lower than 3.10.14  you can upgrade it using the pip package manager. Make sure you have the latest version of pip installed. To install the necessary packages and libraries, execute the following command in the project directory after cloning the repository:
+
+```bash
+pip install -r requirements.txt
+```
+  </details>
+  
 ## Conclusion 
 
 In conclusion, the features of total payment, installment consistency, loan amount, loan term, and borrower grade are crucial for both loan profitability and approval. Total payment and installment consistency reflect borrower commitment and financial responsibility, essential for successful loan approval. The loan amount, term, and borrower grade provide valuable insights into loan profitability and performance. Leveraging predictive models that consider these factors allows Bank to select the right borrowers, maximizing profitability. In essence, by focusing on these key features, bank can optimize their lending practices and drive sustainable growth.
