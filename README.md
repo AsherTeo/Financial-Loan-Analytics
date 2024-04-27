@@ -1,8 +1,11 @@
-## Table of Contents
+# Table of Contents
 
 - [Overview](#overview)
 - [Objective](#objective)
-- 
+- [Key Features](#Key Features)
+
+
+
 # Financial Loan Analysis with Dashboard (Below)
 
 ## Overview
